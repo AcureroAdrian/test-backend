@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "command": "npm run build",
+      "buildCommand": "npm run build",
       "output": "dist"
     }
   ],
