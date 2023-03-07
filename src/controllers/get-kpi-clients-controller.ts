@@ -1,6 +1,6 @@
 import { getAllClients } from "../shared/clientRepository";
-import { averageAge, calculateStats } from "../shared/functions";
-import { ClientType, controllerType } from "../shared/interfaces";
+import { calculateStats } from "../shared/functions";
+import { controllerType } from "../shared/interfaces";
 
 export const getKpiClientsController: controllerType = async (req, res) => {
   try {
